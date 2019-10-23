@@ -40,6 +40,7 @@ def Add_feature(x_train,x_test):
 			d = np.power(c,j)
 			b = b.reshape((-1,1))
 			d = d.reshape((-1,1))
+
 			x_train = np.concatenate((x_train,b),axis = 1)
 			x_test = np.concatenate((x_test,d),axis = 1)
 
@@ -57,6 +58,7 @@ def Add_feature(x_train,x_test):
 			f = np.sin(d)
 			x_train = np.concatenate((x_train,e),axis = 1)
 			x_test = np.concatenate((x_test,f),axis = 1)
+
 
 	return x_train,x_test
 
