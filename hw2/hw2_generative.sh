@@ -1,3 +1,3 @@
 #!/bin/bash
 
-python3 generative.py $3 $4 $5 $6
+python3 generative_test.py $5 $6
