@@ -123,7 +123,7 @@ if __name__ == '__main__':
     valid_dataset = train_hw3(training_folder,y_valid)
     valid_loader = DataLoader(valid_dataset, batch_size = 256, num_workers=8,shuffle=True)
 
-    num_epoch = 100
+    num_epoch = 500
 
     
     device = torch.device('cuda')
